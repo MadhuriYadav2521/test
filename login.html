@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+
+</head>
+<body>
+    <div class="screen">
+        <div class="navbar">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="./Flipkart-Logo-2007.png" alt="">
+                </div>
+            </div>
+            <div class="searchbar">
+               <input type="text" placeholder="Search for products, brands & more">
+            </div>
+            <div class="login-section" id="switch">
+               <button onclick="window.location.href='./register.html'">Login</button>
+            </div>
+            <div class="seller">
+               <h4>become a seller</h4>
+            </div>
+            <div class="more">
+               <h4>more</h4>
+            </div>
+            <div class="cart">
+                <h4>cart</h4>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <h2>Login</h2>
+                <h3>Get access to your orders, wishlists and recommandations</h3>
+            </div>
+            <div class="right">
+                <form action="" onsubmit="login(event)">
+                    <div class="input-fields">
+                    <input type="email" placeholder="enter email" id="email">
+                </div>
+                <div class="input-fields">
+                    <input type="password" placeholder="enter password" id="passsword">
+                </div>
+                <div class="submit-btn">
+                    <input type="submit" name="" id="" value="Login">
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script src="./flipkartServer.js"></script>
+</body>
+</html>

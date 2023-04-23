@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="navbar">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="./Flipkart-Logo-2007.png" alt="">
+                </div>
+            </div>
+            <div class="searchbar">
+               <input type="text" placeholder="Search for products, brands & more">
+            </div>
+            <div class="login-section" id="switch">
+               <button onclick="window.location.href='./register.html'">Login</button>
+            </div>
+            <div class="seller">
+               <h4>become a seller</h4>
+            </div>
+            <div class="more">
+               <h4>more</h4>
+            </div>
+            <div class="cart">
+                <h4>cart</h4>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="">
+                </div>
+                <div class="c-name">Grocery</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="">
+                </div>
+                <div class="c-name">mobiles</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100" alt="">
+                </div>
+                <div class="c-name">fashion</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="">
+                </div>
+                <div class="c-name">electronics</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt="">
+                </div>
+                <div class="c-name">home</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="">
+                </div>
+                <div class="c-name">applience</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="">
+                </div>
+                <div class="c-name">travel</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="">
+                </div>
+                <div class="c-name">offers</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="">
+                </div>
+                <div class="c-name">beauty</div>
+            </div>
+            <div class="categori-item">
+                <div class="c-img">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100" alt="">
+                </div>
+                <div class="c-name">two wheelers</div>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/844/140/image/9a3a734aef20053a.jpg?q=50" alt="">
+        </div>
+        <div class="best-of-electronics">
+            <div class="products">
+                <h2>best of electronics</h2>
+                <button>view all</button>
+            </div>
+            <div class="products">
+            </div>
+            <div class="products">
+            </div>
+            <div class="products">
+            </div>
+            <div class="products">
+            </div>
+            <div class="products">
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+<script>
+    var currentUser= JSON.parse(localStorage.getItem("flpikartUser"));
+    var fonHtml = document.getElementById("switch");
+    var name = `<p> ${currentUser.username}</p>`;
+    fonHtml.innerText.name;
+
+</script>
+
+
+</body>
+</html>
